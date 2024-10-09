@@ -1,6 +1,5 @@
 import Pets from "../dao/Pets.dao.js";
 import { customError } from "../errors/custom.error.js";
-import { generatePetsMock } from "../mocks/pets.mock.js";
 
 export class PetsServices {
     constructor() {

@@ -1,5 +1,3 @@
-import { customError, CustomError } from "../errors/custom.error.js";
-import { generateUsersMock } from "../mocks/user.mock.js";
 import { UserServices } from "../services/user.services.js";
 
 export class UserControllers {
@@ -16,7 +14,7 @@ export class UserControllers {
   getAllUsers = async (req, res, next) => {
     try {
       const users = await this.userServices.getAll();
-      
+
       res.send({ status: "success", payload: users });
     } catch (error) {
       next(error);
