@@ -7,9 +7,9 @@ export const generatePetsMock = (amount) => {
     const pet = {
       name: faker.person.firstName(),
       specie: faker.animal.type(),
-      adopted: faker.datatype.boolean(),
+      adopted: false,
       birthDate: faker.date.birthdate(),
-      image: faker.image.urlPicsumPhotos(),
+      image: faker.image.avatar(),
 
     };
     pets.push(pet);

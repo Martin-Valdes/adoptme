@@ -10,6 +10,10 @@ export default class Users {
     getBy = (params) =>{
         return userModel.findById(params)
     }
+    getByEmail = async (email) => {
+        return userModel.findOne({ email: email });
+       
+      };
 
     save = (doc) =>{
         return userModel.create(doc);
@@ -25,4 +29,5 @@ export default class Users {
     delete = (id) =>{
         return userModel.findByIdAndDelete(id);
     }
+  
 }

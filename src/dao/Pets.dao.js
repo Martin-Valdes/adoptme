@@ -13,6 +13,7 @@ export default class Pet {
     save = (doc) =>{
         return petModel.create(doc);
     }
+    
     saveMany = (docs) =>{
         return petModel.insertMany(docs)
     }

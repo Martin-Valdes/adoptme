@@ -29,11 +29,10 @@ export class PetsServices {
         await this.petDao.delete(id);
         return "ok";
     }
-    async createPetMocks() {
-        const pets = generatePetsMock(10);
+    async createMany(data) {
         
-        const petDb = await this.petDao.saveMany(pets);
+        const pets = await this.petDao.saveMany(data);
         
-        return petDb;
+        return pets;
     }
 }

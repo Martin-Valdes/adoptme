@@ -1,3 +1,4 @@
+import { use } from "chai";
 import Users from "../dao/Users.dao.js";
 import { customError } from "../errors/custom.error.js";
 import { generateUsersMock } from "../mocks/user.mock.js";
@@ -16,6 +17,10 @@ export class UserServices {
     if(!user) throw customError.notFoundError(`User id ${id} not found`);
     return user;
   }
+  async getByEmail (email){
+    const user = await this.userDao.getByEmail(email);
+    return user
+  }
   async create(data) {
     const user = await this.userDao.save(data);
     return user;
@@ -28,9 +33,9 @@ export class UserServices {
     await this.userDao.delete(id);
     return "ok";
   }
-  async createMocks() {
-    const users = generateUsersMock(10);
-    const usersDb = await this.userDao.saveMany(users);
-    return usersDb;
+  async createMany(data) {
+    const users = await this.userDao.saveMany(data)
+    return users;
   }
+
 }
