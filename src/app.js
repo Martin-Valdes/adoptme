@@ -2,6 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 import { errorHandle } from "./errors/errHandle.js";
+import { logger } from "./utils/logger.js";
 
 import router from "./routes/index.js";
 
@@ -19,4 +20,4 @@ app.use("/api", router);
 // Middleware de manejo de errores
 app.use(errorHandle);
 
-app.listen(PORT, () => console.log(`Listening on ${PORT}`));
+app.listen(PORT, () => logger.info(`Listening on ${PORT}`) );
