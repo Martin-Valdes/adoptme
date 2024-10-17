@@ -1,0 +1,48 @@
+paths:
+  /api/pets:
+    get:
+      summary: Obtener todas las mascotas
+      description: GET all pets
+      tags:
+        - Pets
+      responses:
+        200:
+          description: Retorno de array de mascotas
+          content: 
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Pets"
+
+components:
+  schemas:
+    Pets:
+      type: array
+      item:
+        properties:
+          _id:
+            type: ObjetId
+            description: Id de la mascota
+          name:
+            type: string
+            description: Nombre de la mascota
+          specie:
+            type: string
+            description: Especie de la mascota
+          birthDate:
+            type: streing
+            description: Fecha de nacimiento
+          adopted:
+            type: boolean
+            description: Adoptado o no
+          image: 
+            type: string
+            description: Imagen de la mascota
+      example:
+        "_id": "67006585e9cf26993778aa73"
+        "name": "Marta"
+        "specie": "tiger"
+        "birthDate": "1961-03-03T07:09:29.238Z"
+        "adopted": true
+        "image": "https://picsum.photos/seed/dhF1y/2079/311?blur=4"
+        
+        
