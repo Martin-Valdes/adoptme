@@ -1,0 +1,22 @@
+paths:
+  /api/pets/{pid}:
+    delete:
+      summary: Eliminar mascota
+      description: Delete a pet
+      tags:
+        - Pets
+      parameters:
+        - in: path
+          name: pid
+          requiered: true
+          description: Id pet
+          schema:
+            type: string
+      responses:
+        200:
+          description: Eliminar mascota
+          content: 
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Pets"
+
