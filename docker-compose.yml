@@ -1,0 +1,36 @@
+
+
+version: '3.8' # Usar una versión más reciente es recomendable
+
+services:
+  webnode: 
+    container_name: example # Corregido
+    restart: always
+    build: .
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mongo
+    networks:
+      - mynetwork
+    volumes:
+      - .:/usr/src/app
+
+  mongo: 
+    container_name: mongodb # Corregido
+    image: mongo:latest
+    restart: unless-stopped
+    ports:
+      - "27676:27017" # Mapea el puerto 27017 del contenedor al puerto 27676 del host
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - mynetwork
+   
+
+volumes:
+  mongo-data:
+
+networks:
+  mynetwork:
+    driver: bridge

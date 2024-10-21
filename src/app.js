@@ -9,7 +9,7 @@ import router from "./routes/index.js";
 const app = express();
 const PORT = process.env.PORT || 8081;
 mongoose.set('strictQuery', true);
-const connection = mongoose.connect(`mongodb://localhost:27017`);
+const connection = mongoose.connect(`mongodb://mongo/mydb`);
 
 
 app.use(express.json());
