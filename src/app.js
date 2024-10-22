@@ -10,7 +10,9 @@ import { specs } from "./config/swagger.config.js";
 const app = express();
 const PORT = process.env.PORT || 8081;
 mongoose.set('strictQuery', true);
-const connection = mongoose.connect(`mongodb://mongo/mydb`);
+// const connection = mongoose.connect(`mongodb://mongo/mydb`);
+const connection = mongoose.connect(`mongodb://localhost:27017`);
+
 
 
 app.use(express.json());

@@ -1,0 +1,71 @@
+paths:
+  /api/users/{uid}:
+    put:
+      summary: Modificar usuario
+      description: PUT a user
+      tags:
+        - Users
+      parameters:
+        - in: path
+          name: uid
+          requiered: true
+          description: Id user
+          schema:
+            type: string
+      requestBody:
+        required: true
+        description: User data
+        content: 
+            application/json:
+              schema:
+                $ref: "#/components/requestBody/modifyUser"
+      responses:
+        201:
+          description: Modificar datos de Usuario
+          content: 
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+
+components:
+  schemas:
+    User:
+      type: array
+      item:
+        properties:
+          first_name:
+            type: string
+            description: Nombre del usuario
+          last_name:
+            type: string
+            description: Apellido del usuariod
+          email:
+            type: string
+            description: email
+          role:
+            type: string
+            description: usuario o administrador
+      example:
+          "_id": "67006585e9cf26993778aa73"
+          "first_name": "Marta"
+          "last_name": "tiger"
+          "email": "valdesmartin@gmail.com"
+          "role": "user"
+          "password": "1234"
+
+  requestBody:
+    modifyUser:
+      type: object
+      propieties:
+          first_name:
+            type: string
+            description: Nombre del usuario
+          last_name:
+            type: string
+            description: Apellido del usuariod
+          email:
+            type: string
+            description: email
+          role:
+            type: string
+            description: usuario o administrador

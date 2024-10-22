@@ -50,4 +50,13 @@ export class UserControllers {
     const result = await this.userServices.remove(userId);
     res.send({ status: "success", message: "User deleted" });
   };
+
+  postUser = async ( req, res ) =>{
+    const dataUser = req.body;
+
+    const user = await this.userServices.create(dataUser);
+    res.send({status: "sucess", payload: user})
+
+  }
+
 }

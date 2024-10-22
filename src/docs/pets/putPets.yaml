@@ -18,7 +18,7 @@ paths:
         content: 
             application/json:
               schema:
-                $ref: "#/components/requestBody/UpdateUser"
+                $ref: "#/components/requestBody/UpdatePets"
       responses:
         200:
           description: Modificar mascota
@@ -63,7 +63,7 @@ components:
         "image": "https://picsum.photos/seed/dhF1y/2079/311?blur=4"
 
   requestBody:
-    createUser:
+    UpdatePets:
       type: object
       propieties:
         name: Nombre de la persona

@@ -1,1 +1,7 @@
 2024-10-16 06:40:05 [[31merror[39m]: Operation `pets.find()` buffering timed out after 10000ms
+2024-10-22 10:04:19 [[31merror[39m]: Expected property name or '}' in JSON at position 3 (line 3 column 1)
+2024-10-22 10:05:15 [[31merror[39m]: Expected property name or '}' in JSON at position 3 (line 3 column 1)
+2024-10-22 10:06:21 [[31merror[39m]: Bad control character in string literal in JSON at position 60 (line 4 column 4)
+2024-10-22 10:06:33 [[31merror[39m]: Expected ',' or '}' after property value in JSON at position 58 (line 4 column 3)
+2024-10-22 10:28:48 [[31merror[39m]: Cast to ObjectId failed for value "{aid}" (type string) at path "_id" for model "Adoptions"
+2024-10-22 10:36:42 [[31merror[39m]: User id [object Object] not found

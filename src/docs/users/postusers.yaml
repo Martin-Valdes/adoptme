@@ -1,0 +1,63 @@
+paths:
+  /api/users:
+    post:
+      summary: Crear usuario
+      description: POST a user
+      tags:
+        - Users
+      requestBody:
+        required: true
+        description: User data
+        content: 
+            application/json:
+              schema:
+                $ref: "#/components/requestBody/createUser"
+      responses:
+        201:
+          description: Nuevo Usuario
+          content: 
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+
+components:
+  schemas:
+    User:
+      type: array
+      item:
+        properties:
+          first_name:
+            type: string
+            description: Nombre del usuario
+          last_name:
+            type: string
+            description: Apellido del usuariod
+          email:
+            type: string
+            description: email
+          role:
+            type: string
+            description: usuario o administrador
+      example:
+          "first_name": "Marta"
+          "last_name": "tiger"
+          "email": "valdesmartin@gmail.com"
+          "role": "user"
+          "password": "1234"
+
+  requestBody:
+    createUser:
+      type: object
+      propieties:
+          first_name:
+            type: string
+            description: Nombre del usuario
+          last_name:
+            type: string
+            description: Apellido del usuariod
+          email:
+            type: string
+            description: email
+          role:
+            type: string
+            description: usuario o administrador

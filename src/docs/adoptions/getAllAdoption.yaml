@@ -1,0 +1,35 @@
+paths:
+  /api/adoptions:
+    get:
+      summary: Obtener todas las adopciones
+      description: GET all adoptions
+      tags:
+        - Adoptions
+      responses:
+        200:
+          description: Retorno de array de adopciones
+          content: 
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Adoption"
+
+components:
+  schemas:
+    Adoption:
+      type: array
+      item:
+        properties:
+          owner:
+            type: string
+            description: Id del que adopta
+          pet:
+            type: string
+            description: Id de la mascota
+
+      example:
+        "_id": "67006585e9cf26993778aa73"
+        "owner": "67006585e9cf26993778aa73"
+        "pet": "tiger"
+
+
+        

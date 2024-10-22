@@ -1,0 +1,45 @@
+paths:
+  /api/users:
+    get:
+      summary: Obtener todos los usuarios
+      description: GET all users
+      tags:
+        - Users
+      responses:
+        200:
+          description: Retorno de array de usuarios
+          content: 
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+
+components:
+  schemas:
+    User:
+      type: array
+      item:
+        properties:
+          _id:
+            type: ObjetId
+            description: Id del usuario
+          first_name:
+            type: string
+            description: Nombre del usuario
+          last_name:
+            type: string
+            description: Apellido del usuariod
+          email:
+            type: string
+            description: email
+          role:
+            type: string
+            description: usuario o administrador
+
+      example:
+        "_id": "67006585e9cf26993778aa73"
+        "first_name": "Marta"
+        "last_name": "tiger"
+        "email": "valdesmartin@gmail.com"
+        "role": "user"
+
+        

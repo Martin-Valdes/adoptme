@@ -1,0 +1,54 @@
+paths:
+  /api/adoptions/{uid}/{pid}:
+    post:
+      summary: Nueva adopcion
+      description: POST a adoption
+      tags:
+        - Adoptions
+      parameters:
+        - in: path
+          name: uid
+          requiered: true
+          description: Id owner
+          schema:
+            type: string
+        - in: path
+          name: pid
+          requiered: true
+          description: Id pet
+          schema:
+            type: string
+      responses:
+        201:
+          description: Nueva adoption
+          content: 
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Adoption"
+components:
+  schemas:
+    Adoption:
+      type: object
+      properties:
+        ownerId:
+          type: string
+          example: "67006585e9cf26993778aa73"
+        petId:
+          type: string
+          example: "57006585e9cf26993778bb84"
+  requestBody:
+    createAdoption:
+      description: Datos de la nueva adopción
+      required: true
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              ownerId:
+                type: string
+              petId:
+                type: string
+            example:
+              ownerId: "67006585e9cf26993778aa73"
+              petId: "57006585e9cf26993778bb84"

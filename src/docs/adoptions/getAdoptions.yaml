@@ -1,0 +1,41 @@
+paths:
+  /api/adoptions/{aid}:
+    get:
+      summary: Obtener una adopcion
+      description: GET adoption
+      tags:
+        - Adoptions
+      parameters:
+        - in: path
+          name: aid
+          requiered: true
+          description: Id adoption
+          schema:
+            type: string
+      responses:
+        200:
+          description: Retorno de array de adopciones
+          content: 
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Adoption"
+
+components:
+  schemas:
+    Adoption:
+      type: array
+      item:
+        properties:
+          owner:
+            type: string
+            description: Id del que adopta
+          adoption:
+            type: string
+            description: Id de la mascota
+      example:
+        "_id": "67006585e9cf26993778aa73"
+        "owner": "67006585e9cf26993778aa73"
+
+
+
+        
