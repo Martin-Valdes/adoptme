@@ -3,16 +3,23 @@ import jwt from 'jsonwebtoken';
 import UserDTO from '../dto/User.dto.js';
 import { UserServices } from "../services/user.services.js";
 
-const usersService = new UserServices();
-
 export class SessionsController {
+    constructor() {
+        this.userServices = new UserServices();
+      }
 
-    register = async (req, res) => {
+    register = async (req, res, next) => {
+        
         try {
             const { first_name, last_name, email, password } = req.body;
-            console.log(req.body);
             if (!first_name || !last_name || !email || !password) return res.status(400).send({ status: "error", error: "Incomplete values" });
 
+            const exists = await this.userServices.getByEmail(email);
+            
+            if (exists)
+              return res
+                .status(400)
+                .send({ status: "error", error: "User already exists" });  
             const hashedPassword = await createHash(password);
             const user = {
                 first_name,
@@ -20,18 +27,17 @@ export class SessionsController {
                 email,
                 password: hashedPassword
             }
-            let result = await usersService.create(user);
-            console.log(result);
-            res.send({ status: "success", payload: result._id });
+            let result = await this.userServices.create(user);
+            res.status(201).json({ status: "success", payload: result });
         } catch (error) {
-            console.log(error)
+            next(error)
         }
     }
 
     login = async (req, res) => {
         const { email, password } = req.body;
         if (!email || !password) return res.status(400).send({ status: "error", error: "Incomplete values" });
-        const user = await usersService.getByEmail(email);
+        const user = await this.userServices.getByEmail(email);
         if (!user) return res.status(404).send({ status: "error", error: "User doesn't exist" });
         const isValidPassword = await passwordValidation(user, password);
         if (!isValidPassword) return res.status(400).send({ status: "error", error: "Incorrect password" });
@@ -50,7 +56,7 @@ export class SessionsController {
     unprotectedLogin = async (req, res) => {
         const { email, password } = req.body;
         if (!email || !password) return res.status(400).send({ status: "error", error: "Incomplete values" });
-        const user = await usersService.getByEmail(email);
+        const user = await this.userServices.getByEmail(email);
         if (!user) return res.status(404).send({ status: "error", error: "User doesn't exist" });
         const isValidPassword = await passwordValidation(user, password);
         if (!isValidPassword) return res.status(400).send({ status: "error", error: "Incorrect password" });
