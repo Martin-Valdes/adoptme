@@ -173,3 +173,144 @@ undefined
 2024-10-23 09:48:40 [[32minfo[39m]: Listening on 8081
 2024-10-23 09:48:42 [[32minfo[39m]: Listening on 8081
 2024-10-23 09:48:53 [[32minfo[39m]: Listening on 8081
+2024-10-23 10:14:03 [[32minfo[39m]: Listening on 8081
+2024-10-23 14:49:31 [[32minfo[39m]: Listening on 8081
+2024-10-23 14:49:33 [[32minfo[39m]: Listening on 8081
+2024-10-24 06:53:13 [[32minfo[39m]: Listening on 8081
+2024-10-24 06:53:15 [[32minfo[39m]: Listening on 8081
+2024-10-24 07:07:35 [[32minfo[39m]: Listening on 8081
+2024-10-24 07:20:25 [[32minfo[39m]: Listening on 8081
+2024-10-24 07:22:29 [[32minfo[39m]: Listening on 8081
+2024-10-24 07:22:32 [[32minfo[39m]: Listening on 8081
+2024-10-24 07:22:37 [[32minfo[39m]: Listening on 8081
+2024-10-24 07:33:56 [[32minfo[39m]: Listening on 8081
+2024-10-24 07:33:59 [[32minfo[39m]: Listening on 8081
+2024-10-24 07:34:02 [[32minfo[39m]: Listening on 8081
+2024-10-24 07:53:24 [[32minfo[39m]: Listening on 8081
+2024-10-24 07:53:26 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:09:25 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:09:32 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:09:35 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:09:37 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:09:45 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:09:57 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:10:02 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:10:10 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:10:17 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:10:20 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:10:26 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:10:34 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:10:40 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:12:21 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:12:26 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:12:31 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:12:34 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:12:44 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:12:48 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:12:52 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:13:58 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:14:04 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:14:05 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 08:18:21 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:18:24 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:18:30 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 08:19:05 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:26:17 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 08:26:32 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:26:38 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:26:45 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:26:55 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:27:01 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:27:14 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 08:28:43 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 08:29:22 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:29:26 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:29:28 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:29:31 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:29:58 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:30:01 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:30:05 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:33:31 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:33:35 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:54:03 [[32minfo[39m]: Listening on 8081
+2024-10-24 08:54:05 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:06:02 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:06:07 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:06:09 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:06:53 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:07:00 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:07:12 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:07:16 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:07:18 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:07:24 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:07:29 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:07:31 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:07:35 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:07:38 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:07:47 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:07:49 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:07:51 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:08:02 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:08:08 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:08:10 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:08:15 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:08:42 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:08:48 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:08:51 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:08:56 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:09:01 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:09:04 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:35:55 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:36:50 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:36:52 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:36:58 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:37:03 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:37:07 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:37:13 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:37:17 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:37:21 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:37:25 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:37:28 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:37:38 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:37:41 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:37:44 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:37:57 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:38:02 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:38:08 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:38:12 [[32minfo[39m]: Listening on 8081
+2024-10-24 09:38:34 [[32minfo[39m]: Listening on 8081
+2024-10-24 10:45:29 [[32minfo[39m]: Listening on 8081
+2024-10-24 10:45:31 [[32minfo[39m]: Listening on 8081
+2024-10-24 11:15:47 [[32minfo[39m]: Listening on 8081
+2024-10-24 11:16:24 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:17:24 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:21:24 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:21:24 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:21:43 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:42:07 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:42:08 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:45:19 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:45:54 [[32minfo[39m]: Listening on 8081
+2024-10-24 11:45:56 [[32minfo[39m]: Listening on 8081
+2024-10-24 11:47:31 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:47:52 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:50:31 [[31merror[39m]: Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-24 11:53:26 [[31merror[39m]: Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-24 11:55:25 [[31merror[39m]: Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-24 11:55:53 [[31merror[39m]: Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-24 12:03:08 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 12:03:42 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 12:03:42 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 12:03:58 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 12:05:24 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 12:05:25 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 12:05:41 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 12:33:58 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-24 13:46:33 [[32minfo[39m]: Listening on 8081
+2024-10-24 13:46:35 [[32minfo[39m]: Listening on 8081
+2024-10-24 13:47:23 [[32minfo[39m]: Listening on 8081
+2024-10-24 13:48:41 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-24 14:19:41 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-24 14:45:21 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-24 14:48:12 [[32minfo[39m]: Listening on 8081
+2024-10-24 14:48:14 [[32minfo[39m]: Listening on 8081

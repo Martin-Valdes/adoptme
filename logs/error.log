@@ -12,3 +12,33 @@
 2024-10-23 09:15:58 [[31merror[39m]: Cannot read properties of undefined (reading 'getByEmail')
 2024-10-23 09:16:25 [[31merror[39m]: Cannot read properties of undefined (reading 'getByEmail')
 2024-10-23 09:20:06 [[31merror[39m]: Cannot read properties of undefined (reading 'getByEmail')
+2024-10-24 08:14:05 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 08:18:30 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 08:26:17 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 08:27:14 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 08:28:43 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:16:24 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:17:24 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:21:24 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:21:24 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:21:43 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:42:07 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:42:08 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:45:19 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:47:31 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:47:52 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 11:50:31 [[31merror[39m]: Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-24 11:53:26 [[31merror[39m]: Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-24 11:55:25 [[31merror[39m]: Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-24 11:55:53 [[31merror[39m]: Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-24 12:03:08 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 12:03:42 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 12:03:42 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 12:03:58 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 12:05:24 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 12:05:25 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 12:05:41 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "testUser@test.com" }
+2024-10-24 12:33:58 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-24 13:48:41 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-24 14:19:41 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-24 14:45:21 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }

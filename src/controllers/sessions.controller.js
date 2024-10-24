@@ -6,20 +6,20 @@ import { UserServices } from "../services/user.services.js";
 export class SessionsController {
     constructor() {
         this.userServices = new UserServices();
-      }
+    }
 
     register = async (req, res, next) => {
-        
+
         try {
             const { first_name, last_name, email, password } = req.body;
             if (!first_name || !last_name || !email || !password) return res.status(400).send({ status: "error", error: "Incomplete values" });
 
             const exists = await this.userServices.getByEmail(email);
-            
+
             if (exists)
-              return res
-                .status(400)
-                .send({ status: "error", error: "User already exists" });  
+                return res
+                    .status(400)
+                    .send({ status: "error", error: "User already exists" });
             const hashedPassword = await createHash(password);
             const user = {
                 first_name,
@@ -34,16 +34,21 @@ export class SessionsController {
         }
     }
 
-    login = async (req, res) => {
-        const { email, password } = req.body;
-        if (!email || !password) return res.status(400).send({ status: "error", error: "Incomplete values" });
-        const user = await this.userServices.getByEmail(email);
-        if (!user) return res.status(404).send({ status: "error", error: "User doesn't exist" });
-        const isValidPassword = await passwordValidation(user, password);
-        if (!isValidPassword) return res.status(400).send({ status: "error", error: "Incorrect password" });
-        const userDto = UserDTO.getUserTokenFrom(user);
-        const token = jwt.sign(userDto, 'tokenSecretJWT', { expiresIn: "1h" });
-        res.cookie('coderCookie', token, { maxAge: 3600000 }).send({ status: "success", message: "Logged in" })
+    login = async (req, res, next) => {
+        try {
+            const { email, password } = req.body;
+            if (!email || !password) return res.status(400).send({ status: "error", error: "Incomplete values" });
+            const user = await this.userServices.getByEmail(email);
+            if (!user) return res.status(404).send({ status: "error", error: "User doesn't exist" });
+            const isValidPassword = await passwordValidation(user, password);
+            if (!isValidPassword) return res.status(400).send({ status: "error", error: "Incorrect password" });
+            const userDto = UserDTO.getUserTokenFrom(user);
+            const token = jwt.sign(userDto, 'tokenSecretJWT', { expiresIn: "1h" });
+            res.cookie('coderCookie', token, { maxAge: 3600000 }).send({ status: "success", message: "Logged in" })
+        } catch (error) {
+            console.log(error)
+            next(error)
+        }
     }
 
     current = async (req, res) => {
