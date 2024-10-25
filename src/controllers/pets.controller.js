@@ -31,6 +31,7 @@ export class PetsControllers {
             const { name, specie, birthDate } = req.body;
             if (!name || !specie || !birthDate) return res.status(400).send({ status: "error", error: "Incomplete values" })
             const pet = await this.petService.create({ name, specie, birthDate });
+        console.log(pet)
             res.status(201).json({ status: "success", payload: pet })
             
         } catch (error) {

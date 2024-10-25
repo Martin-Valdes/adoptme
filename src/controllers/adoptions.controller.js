@@ -43,8 +43,18 @@ export class AdoptionControllers {
             user.pets.push(pet._id);
             await usersService.update(user._id,{pets:user.pets})
             await petsService.update(pet._id,{adopted:true,owner:user._id})
-            await this.adoptionsService.create({owner:user._id,pet:pet._id})
-            res.send({status:"success",message:"Pet adopted"})
+            const adoption = await this.adoptionsService.create({owner:user._id,pet:pet._id})
+            res.send({status:"success",payload: adoption})
+        } catch (error) {
+            next(error)
+        }
+    }
+    deleteAdoption = async(req, res, next) =>{
+        console.log("object")
+        try {
+            const {aid} = req.params;
+            const clearAdoption = await this.adoptionsService.remove(aid);
+            res.send({status:"success", payload:clearAdoption})
         } catch (error) {
             next(error)
         }

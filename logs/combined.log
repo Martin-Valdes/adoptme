@@ -314,3 +314,83 @@ undefined
 2024-10-24 14:45:21 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
 2024-10-24 14:48:12 [[32minfo[39m]: Listening on 8081
 2024-10-24 14:48:14 [[32minfo[39m]: Listening on 8081
+2024-10-24 14:49:13 [[32minfo[39m]: Listening on 8081
+2024-10-25 06:55:04 [[32minfo[39m]: Listening on 8081
+2024-10-25 06:55:06 [[32minfo[39m]: Listening on 8081
+2024-10-25 06:56:16 [[32minfo[39m]: Listening on 8081
+2024-10-25 07:21:30 [[32minfo[39m]: Listening on 8081
+2024-10-25 07:26:33 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 07:35:24 [[32minfo[39m]: Listening on 8081
+2024-10-25 07:35:26 [[32minfo[39m]: Listening on 8081
+2024-10-25 07:37:56 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 07:41:47 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 07:41:49 [[32minfo[39m]: Listening on 8081
+2024-10-25 07:53:02 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 07:54:54 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 08:20:12 [[32minfo[39m]: Listening on 8081
+2024-10-25 08:20:14 [[32minfo[39m]: Listening on 8081
+2024-10-25 08:24:54 [[32minfo[39m]: Listening on 8081
+2024-10-25 08:31:28 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 08:59:26 [[32minfo[39m]: Listening on 8081
+2024-10-25 08:59:28 [[32minfo[39m]: Listening on 8081
+2024-10-25 09:05:54 [[32minfo[39m]: Listening on 8081
+2024-10-25 09:06:31 [[32minfo[39m]: Listening on 8081
+2024-10-25 09:06:38 [[32minfo[39m]: Listening on 8081
+2024-10-25 09:06:41 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:05:15 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:05:17 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:06:08 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:06:11 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:06:54 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:07:36 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:07:56 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:08:09 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:08:12 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:08:15 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:08:17 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:08:29 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:08:33 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:09:03 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:09:06 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:09:08 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:09:41 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:09:45 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:09:51 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:09:54 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:10:24 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:10:50 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:10:52 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:11:02 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:11:05 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:11:09 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:11:11 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:11:52 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:11:58 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:20:25 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:20:49 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:20:52 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:21:10 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:21:14 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:21:17 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:21:22 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:21:30 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:21:32 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:21:40 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:21:46 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:23:51 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:24:38 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:24:53 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:24:55 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:28:04 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:28:06 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:28:18 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:28:22 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:28:22 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:28:22 [[31merror[39m]: this.adoptionsService.delete is not a function
+2024-10-25 10:29:15 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:29:18 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:29:21 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:29:21 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:29:21 [[31merror[39m]: this.adoptionsService.delete is not a function
+2024-10-25 10:30:44 [[32minfo[39m]: Listening on 8081
+2024-10-25 10:30:47 [[32minfo[39m]: Listening on 8081

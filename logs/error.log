@@ -42,3 +42,19 @@
 2024-10-24 13:48:41 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
 2024-10-24 14:19:41 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
 2024-10-24 14:45:21 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 07:26:33 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 07:37:56 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 07:41:47 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 07:53:02 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 07:54:54 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 08:31:28 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:06:54 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:11:11 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:11:58 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:20:25 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:21:46 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:23:51 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:28:22 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:28:22 [[31merror[39m]: this.adoptionsService.delete is not a function
+2024-10-25 10:29:21 [[31merror[39m]: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "UserAdoptionTest@test.com" }
+2024-10-25 10:29:21 [[31merror[39m]: this.adoptionsService.delete is not a function
