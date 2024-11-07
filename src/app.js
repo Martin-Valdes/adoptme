@@ -1,4 +1,5 @@
 import express from "express";
+import 'dotenv/config';
 import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 import { errorHandle } from "./errors/errHandle.js";
@@ -8,12 +9,10 @@ import router from "./routes/index.js";
 import { specs } from "./config/swagger.config.js";
 
 const app = express();
-const PORT = process.env.PORT || 8081;
+const PORT = process.env.PORT || 8080;
 mongoose.set('strictQuery', true);
-// const connection = mongoose.connect(`mongodb://mongo/mydb`);
-const connection = mongoose.connect(`mongodb://localhost:27017`);
 
-
+const connection = mongoose.connect(process.env.MONGO_URL);
 
 app.use(express.json());
 app.use(cookieParser());
