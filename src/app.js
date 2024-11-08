@@ -9,6 +9,7 @@ import router from "./routes/index.js";
 import { specs } from "./config/swagger.config.js";
 
 const app = express();
+
 const PORT = process.env.PORT || 8080;
 mongoose.set('strictQuery', true);
 
@@ -16,11 +17,10 @@ const connection = mongoose.connect(process.env.MONGO_URL);
 
 app.use(express.json());
 app.use(cookieParser());
-app.use("/api-docs", swaggerUiExpress.serve, swaggerUiExpress.setup(specs))
+app.use("/api-docs", swaggerUiExpress.serve, swaggerUiExpress.setup(specs));
 
 app.use("/api", router);
 
-// Middleware de manejo de errores
 app.use(errorHandle);
 
 app.listen(PORT, () => logger.info(`Listening on ${PORT}`) );
