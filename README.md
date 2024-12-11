@@ -2,8 +2,6 @@
 
 Esta API permite gestionar la adopción de mascotas, proporcionando funcionalidades para registrar, buscar, actualizar y eliminar información sobre mascotas y adoptantes.
 
----
-
 ## 🛠️ Tecnologías Utilizadas
 
 - **Node.js**
@@ -20,7 +18,6 @@ Esta API permite gestionar la adopción de mascotas, proporcionando funcionalida
 ## 🚀 Configuración Inicial
 
 1. **Clonar el repositorio:**
-   ```bash
    git clone https://github.com/tu-usuario/tu-repo.git
    cd tu-repo
 **Instalar dependencias:**
